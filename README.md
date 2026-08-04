@@ -4,7 +4,7 @@
 
 ## 部署步骤
 
-1. **准备 API 服务**（本项目默认对接 [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)，需调整，请自行调整，最新版本调用API(https://ncm-api.prod.gbclstudio.cn）)：
+1. **准备 API 服务**（本项目默认对接 [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)，需调整，请自行调整，最新版本调用API(https://ncm-api.prod.gbclstudio.cn））：
    ```bash
    git clone https://github.com/Binaryify/NeteaseCloudMusicApi.git
    cd NeteaseCloudMusicApi
@@ -12,7 +12,7 @@
    node app.js        # 默认监听 http://localhost:3000
    ```
 
-2. **启动本网站**（二选一）：
+2. **启动本网站**：
    - 在项目目录启动静态服务器（推荐，可读取 config.json文件）：
      ```bash
      python3 -m http.server 8080
@@ -62,5 +62,4 @@
 ## 常见问题
 
 - 页面提示"无法连接 API 服务器"：检查 API 地址是否正确、服务是否启动、是否跨域。
-- 歌曲无法播放：可能无版权、需登录或需要更高音质权限，可尝试切换音质。
-- 收藏/歌单不可用：cookie 无效或已过期，请更新 cookie.json。
+- 歌曲无法播放：可能无版权、需登录或需要更高音质权限，可尝试切换API或者音质。
