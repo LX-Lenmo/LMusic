@@ -1,0 +1,13 @@
+{
+    "api": {
+        "baseUrl": "https://ncm-api.prod.gbclstudio.cn",
+        "audioLevel": "exhigh"
+    },
+    "theme": {
+        "primaryColor": "#ffffff",
+        "backgroundImage": ""
+    },
+    "ui": {
+        "controlStyle": "blur"
+    }
+}
