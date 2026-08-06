@@ -4,7 +4,7 @@
 
 ## 部署步骤
 
-1. **准备 API 服务**（本项目默认对接 [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)，需调整，请自行调整，最新版本调用API(https://ncm-api.prod.gbclstudio.cn））：
+1. **准备 API 服务**（本项目默认对接 [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)，需调整，请自行调整，最新版本调用API(https://ncm-api.prod.gbclstudio.cn) ）：
    ```bash
    git clone https://github.com/Binaryify/NeteaseCloudMusicApi.git
    cd NeteaseCloudMusicApi
